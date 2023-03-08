@@ -3,14 +3,12 @@ MuuBank é um sistema de gerenciamento bancário desenvolvido em Java utilizando
 
 
 <h2>Funcionalidades</h2>
-<p>O sistema MuuBank possui as seguintes funcionalidades:</p>
-<li>Login de usuários</li>
-<li>Cadastro de usuários</li>
-<li>Consulta de saldo</li>
-<li>Depósito em conta</li>
-<li>Saque de conta</li>
-<li>Transferência entre contas</li>
-
+<p>O sistema MuuBank possui uma API com as seguintes funcionalidades:</p>
+<li>Criação de novas Contas</li>
+<li>Edição de Conta existente</li>
+<li>Listar uma Conta por id</li>
+<li>listar todas as contas</li>
+<li>Excluir uma conta existente</li>
 
 <h2>Tecnologias utilizadas</h2>
 <p>Este projeto foi desenvolvido utilizando as seguintes tecnologias:</p>
