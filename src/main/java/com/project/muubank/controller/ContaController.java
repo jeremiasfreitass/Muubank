@@ -1,7 +1,6 @@
 package com.project.muubank.controller;
 
 import com.project.muubank.persistence.entity.Conta;
-import com.project.muubank.persistence.repository.ContaRepository;
 import com.project.muubank.service.ContaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -26,7 +25,7 @@ public class ContaController {
         return ResponseEntity.ok(this.contaService.listarPorId(id));
     }
     @PostMapping()
-    public ResponseEntity<Conta> criarConta(@RequestBody Conta conta){
+    public ResponseEntity<Conta> cadastrar(@RequestBody Conta conta){
         return ResponseEntity.ok(this.contaService.criarConta(conta));
     }
     @PutMapping(path = "/{id}")
